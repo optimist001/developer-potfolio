@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>developer portfolio</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+                <div class="head-text">
+                    <p><strong>Johnathan</strong> Specter</p>
+                </div>
+                
+                <div class="hambuger-menu">
+                    <img src="assets/Hamburger Menu.svg" alt="hambuger-menu" id="hambuger-menu">
+                </div>
+                
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#chats">Chats</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="head-btn">
+                    <button type="button" id="button">Get in touch</button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main-text">
+            <h1>Helping companies build better, scalable software.</h1>
+            <p>Award-winning web developer and author, with over 15+ years of working experience with fortune 500 companies like Apple, Google, Facebook, and more.</p>
+        </div>
+
+        <div class="logos">
+            <img src="assets/Logos/Walmart.svg" alt="Morgan">
+            <img src="assets/Logos/JP Morgan.svg" alt="Samsung">
+            <img src="assets/Logos/Visa.svg" alt="Tinder">
+            <img src="assets/Logos/Tinder.svg" alt="Verizon">
+            <img src="assets/Logos/Samsung.svg" alt="Visa">
+            <img src="assets/Logos/Verizon.svg" alt="Walmart">
+        </div>
+
+        <div class="illustration">
+
+            <div class="spense">
+
+                <div class="spense-img">
+                    <img src="assets/Spense.png" alt="Spense">
+                </div>
+
+                <div class="txt-area">
+                    <h2>Spense.com <img src="" alt=""></h2>
+                    <p>Rethinking the way writers get paid, an open-source platform designed to help writers focus more on writing, and less on when and how they'll get paid. Project in collaboration with Codewell.cc</p>
+                </div>
+
+            </div>
+
+            <div class="yelpcamp">
+
+                <div class="yelpcamp-img">
+                    <img src="assets/YelpCamp.png" alt="yelpcamp">
+                </div>
+
+                <div class="txt-area">
+                    <h2>YelpCamp.com <img src="" alt=""></h2>
+                    <p>Allowing backpack travellers to perfectly plan their trip through an open-source platform similar to TripAdvisor. with over 1m MAU, YelpCamp has been the crowd's favorite in 2021.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="about" id="about">
+            <div class="about-txt">
+
+                <div class="txt right-txt">
+                    <h2>A co-counder at one of the world's laregst communities.</h2>
+                    <p>The combined experience I have working at the top fortune 500 companies has allowed me to develope a skillset that helps me in just development, but in every aspect of any business.</p>
+                    <p>I'am proud to annpunce that I am now working at one of the word's largest communities teaching young minds about how to sell yourself as a developer and open them to a whole new world of opportunities.</p>
+                </div>
+
+                <div class="txt left-txt">
+                    <p>As a developer, you have everything available to you and all that's holding you back is yourself.</p>
+                    <p>A qoute I live perfectly illustrates what I mean.</p>
+                    <p>"How big would you dream, if you knew you would'nt fail?" You have already gone through the hardest parts beiing a developer, it's time to elevate your skills and become a leader in something you're passionate abput.</p>
+                    <p>I am happy to chat over coffee some time abput how I can help your commpany.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="chats" id="chats">
+
+            <div class="chats-txt">
+                <h2>Interested in working with me?</h2>
+                <p>I'm active on all social media platforms listed below, but you<br> can also me an email and I will get back to you within 24-48<br> hours.</p>
+            </div>
+
+            <div class="chats-btn">
+                <button>Get in touch</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-txt">
+                <p><strong>Johnathan</strong>Specter</p>
+            </div>
+
+            <div class="social-icon">
+                <img src="assets/Social Icons/Twitter.svg" alt="">
+                <img src="assets/Social Icons/LinkedIn.svg" alt="">
+                <img src="assets/Social Icons/Github.svg" alt="">
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        //toggle menu
+
+        let toggle = document.querySelector('.hambuger-menu');
+        let main = document/querySelector('.main-text');
+
+        toggle.onclick = function(){
+            main.classlist.toggle('active');
+
+        }
+
+    </script>
+    
+</body>
+</html>
